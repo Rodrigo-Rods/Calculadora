@@ -1,0 +1,22 @@
+.calculator-case {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+
+	border: 3px solid #000;
+	border-radius: 5px;
+
+	background-color: #000000;
+}
+.calculator {
+	height: 500px;
+	width: 400px;
+	border-radius: 5px;
+	overflow: hidden;
+
+	background-color: bisque;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 1fr 68px 68px 68px 68px 68px;
+}
